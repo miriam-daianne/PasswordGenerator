@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merienda:wght@300..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Single+Day&display=swap');
+
+body{
+    font-family: Goldman, Montserrat, Roboto;
+    background-color: #50727B;
+    margin: 0;  
+}
+
+body, div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, label, p{
+    color: #F5E8DD;
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #35374B;
+}
+
+div{
+    flex-direction: column;
+    background-color: #344955;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 30px;
+    text-shadow: 0.5px 0.5px 0.5px #35374B;
+}
+
+input[type="number"] {
+    text-align: center; 
+    -webkit-appearance: textfield; 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input{
+    width: 50px;
+}
+
+
+label, input, button, div {
+    margin: 10px;
+}
+
+input, button{
+        background-color: #e4eeef;
+        color: #333;
+        border: 1px solid #78A083;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 14px;
+        font: inherit;
+}
+
+
+div>p{
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+    border: 1px groove #78A083;  
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button::before,
+input[type="number"]::-webkit-outer-spin-button::before {
+    content: '▲';
+    padding-right: 5px;
+    color: #35374B;
+    cursor: pointer;
+}
+
+input[type="number"]::-webkit-inner-spin-button::after,
+input[type="number"]::-webkit-outer-spin-button::after {
+    content: '▼';
+    padding-right: 5px;
+    color: #35374B;
+    cursor: pointer;
+}
+
